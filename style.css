@@ -48,76 +48,66 @@ body {
 	margin-top: 20px;
 }
 
+
+.nav {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 20px;
+	align-items: center;
+	list-style: none;
+}
+
+
 .logo {
 	width: 90px;
-	height: 61px;
     margin-top: 20px;
+    margin-left: 20px;
     cursor: pointer;
 }
 
-@-webkit-keyframes spin {
-  0%   { opacity: 0.2;   text-shadow: 0px 0px 0px white;
-}
-  50% { opacity: 1; -webkit-transform: rotate(180deg);   text-shadow: 0px 0px 90px white;
-}
-  100% { opacity: 0.2; -webkit-transform: rotate(360deg);   
-    text-shadow: 0px 0px 0px white;
- }
+.logo img {
+	width: 100%;
 }
 
-
-.logo:hover {
-	  -webkit-animation: spin .5s linear infinite; 
-}
-
-
-.col-5 {
-	flex: 4;
-	-ms-grid-row-align: center;
-	    align-self: center;
-	font-size: 70%;
-}
-
-.col-5 li {
-	text-align: center;
+.nav-items {
+	flex: 1;
 	display: inline-block;
-	margin-right: 30px;
+	text-align: right;
 	font-family: OpenSans-Semibold;
-	font-size: 16px;
-	color: #fff;
+	font-size: 1em;
+	color: #FFFFFF;
 	letter-spacing: 0.2px;
 	text-transform: uppercase;
-	cursor: pointer;
-	padding: 20px 5px 20px 5px;
-	background-color: transparent;
 }
 
 
-.button a:hover {
-	transition: background 0.5s ease;
-	background-color: transparent;
-	color: #3daf2c;
-}
-
-
-.col-5 a:link, a:visited {
-	text-decoration: none;
-	color: white;
-}
-
-
-
-
-
-.-right {
+.nav-items ul {
 	text-align: right;
+	display: inline-flex;
 }
 
 
+.nav-items ul li {
+	list-style: none;
+	margin-right: 40px;
+	align-self: center;
 
-.col-5 .button {
+}
+
+.nav-items ul li a {
+	text-decoration: none;
+}
+
+
+.nav-items ul li a:hover {
+	text-decoration: underline;
+}
+
+
+.button {
 	font-family: OpenSans-SemiBold;
-	font-size: 16px;
+	font-size: 1.1em;
 	color: #FFFFFF;
 	/*background-image: linear-gradient(-135deg, #0FCD6B, #0AC156);*/
 	background-color: #0AC156;
@@ -130,7 +120,26 @@ body {
     border: none;
     margin-right: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
+
+
+/*Animation
+@-webkit-keyframes spin {
+  0%   { opacity: 0.2;   text-shadow: 0px 0px 0px white;
+}
+  50% { opacity: 1; -webkit-transform: rotate(180deg);   text-shadow: 0px 0px 90px white;
+}
+  100% { opacity: 0.2; -webkit-transform: rotate(360deg);   
+    text-shadow: 0px 0px 0px white;
+ }
+}
+
+
+/*.logo:hover {
+	  -webkit-animation: spin .5s linear infinite; 
+}*/
+
 
 .button:hover {
 	transition: background 0.5s ease;
@@ -138,24 +147,32 @@ body {
 	background-color: #0DA2D6;
 }
 
+
 .button a:hover {
+	transition: background 0.5s ease;
+	background-color: transparent;
 	color: #fff;
-}
-
-
-.col-5 ul li:hover {
-	text-decoration: underline;
-}
-
-.col-5 ul li:hover:last-child {
 	text-decoration: none;
 }
+
+
+.button a:hover {
+	text-decoration: none;
+}
+
+
+.nav a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+
 
 
 /*Mobile Nav Begins*/
 
 
-.nav_mobile {
+.nav-mobile {
   box-shadow: inset 0px 25px 30px -35px black, 0px 0px 30px 0px black;
   display: none;
   background-color: #212629;
@@ -177,21 +194,21 @@ body {
 
 
 
-.nav_mobile ul {
+.nav-mobile ul {
   list-style: none;
   transition: -webkit-transform 0.5s ease-in-out;
   	transition: transform 0.5s ease-in-out;
   	transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
-.nav_mobile.active ul {
+.nav-mobile.active ul {
 	transition: -webkit-transform 0.5s ease-in-out;
   	transition: transform 0.5s ease-in-out;
   	transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 
 }
 
-.nav_mobile ul li {
+.nav-mobile ul li {
 	/*display: none;*/
 	margin-left: 20px;
   font-size: 30px;
@@ -205,7 +222,7 @@ body {
 
 
 
-.nav_mobile ul li a {
+.nav-mobile ul li a {
   text-decoration: none;
   color: white;
 }
@@ -245,6 +262,7 @@ body {
 
 .col-6.quote {
 	margin-top: 100px;
+	margin-left: 20px;
     flex-basis: 46%;
     font-family: OpenSans;
     font-size: 200%;
@@ -386,6 +404,8 @@ background-image: linear-gradient(-135deg, #0EC6E4 100%, #0DA2D6 0%);
 	font-size: 125%;
 	color: #232B35;
 	line-height: 31px;
+	margin-left: 20px;
+    margin-right: 20px;
 }
 
 
