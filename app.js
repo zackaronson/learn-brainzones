@@ -3,9 +3,9 @@
 var nav = document.querySelector('.nav-button');
 
 // grab mobile menu
-var menu = document.querySelector('.nav_mobile');
+var menu = document.querySelector('.nav-mobile');
 
-nav.addEventListener('click', function(e){
+nav.addEventListener('click', function(){
   if(menu.classList.contains('active')) {
     // if the mobile menu has the 'active' class
     // remove it

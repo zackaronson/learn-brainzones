@@ -53,7 +53,6 @@ body {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
-	margin-top: 20px;
 	align-items: center;
 	list-style: none;
 }
@@ -68,6 +67,10 @@ body {
 
 .logo img {
 	width: 100%;
+}
+
+.nav-main {
+	margin-top: 20px;
 }
 
 .nav-items {
@@ -176,6 +179,7 @@ body {
   box-shadow: inset 0px 25px 30px -35px black, 0px 0px 30px 0px black;
   display: none;
   background-color: #212629;
+  margin-top: none;
   top: 0;
   left: 0;
   width: 100%;
@@ -192,10 +196,34 @@ body {
 
 
 
+.logo-menu {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
 
+
+
+.menu-button {
+	background: #00D1FF;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,0.50);
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    margin-right: 20px;
+    align-self: center;
+    color: #fff;
+	font-family: OpenSans-Semibold;
+	font-size: 1em;
+	color: #FFFFFF;
+	letter-spacing: 0.16px;
+	text-transform: uppercase;
+}
 
 .nav-mobile ul {
   list-style: none;
+  height: 800px;
+  margin-top: 100px;
   transition: -webkit-transform 0.5s ease-in-out;
   	transition: transform 0.5s ease-in-out;
   	transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
@@ -663,13 +691,17 @@ p strong {
 }
 
 
-  .nav_mobile {
+  .nav-mobile {
     display: block;
-    background-color: #212629: 
 	transition: -webkit-transform 0.5s ;
    transition: -webkit-transform 0.5s ease-in-out;
    transition: transform 0.5s ease-in-out;
    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  }
+
+
+  .nav-mobile.active {
+	overflow: hidden;
   }
 
 
@@ -680,7 +712,14 @@ p strong {
 	justify-content: space-between;
 }
 
-  .nav-button {
+
+.mobile-button {
+	text-align: right;
+    align-self: center;
+    margin-top: 46px;
+}
+
+  .menu-button {
   	flex: 0;
   	height: 40px;
   	-ms-grid-row-align: center;
@@ -697,15 +736,23 @@ p strong {
   }
 
 
-.logo-mobile {
-	width: 90px;
-	height: 61px;
-	display: flex;
-	margin-left: 20px;
-	flex: 0;
-	align-self: center;
+  .logo img {
+	width: 100%;
 }
 
+
+.logo {
+	width: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+.-right {
+	text-align: right;
+}
 
 
 .quote {
