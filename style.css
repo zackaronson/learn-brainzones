@@ -196,6 +196,30 @@ body {
 
 
 
+.item-list {
+	display: none;
+	 position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+/*  z-index: -1;*/
+  -webkit-transform: translate(0%, -100%);
+          transform: translate(0%, -100%);
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+.item-list.active {
+	display: block;
+	background-color: #212629;
+	  -webkit-transform: translate(0%, calc(0% + 400px) );
+          transform: translate(0%, calc(0% + 400px) );
+}
+
+
+
 .logo-menu {
 	display: flex;
 	justify-content: space-between;
@@ -693,16 +717,8 @@ p strong {
 
   .nav-mobile {
     display: block;
-	transition: -webkit-transform 0.5s ;
-   transition: -webkit-transform 0.5s ease-in-out;
-   transition: transform 0.5s ease-in-out;
-   transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   }
 
-
-  .nav-mobile.active {
-	overflow: hidden;
-  }
 
 
 .col-1 {
@@ -733,6 +749,7 @@ p strong {
 	letter-spacing: 0.16px;
 	text-transform: uppercase;
 	margin-right: 20px;
+	margin-bottom: 50px;
   }
 
 
@@ -747,6 +764,8 @@ p strong {
     margin-left: 20px;
     cursor: pointer;
     z-index: 10;
+    position: fixed;
+    align-self: center;
 }
 
 
