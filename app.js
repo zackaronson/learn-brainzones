@@ -12,3 +12,10 @@ button.addEventListener('click', function(){
   }
 
 });
+
+window.onresize = function(){
+  if(window.innerWidth > 768) {
+    menu.classList.remove('active');
+  }
+};
+
