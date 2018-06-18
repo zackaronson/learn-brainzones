@@ -1,6 +1,6 @@
 var button = document.querySelector('.menu-button');
 
-var item = document.querySelector('.item-list');
+var item = document.querySelector('.nav-mobile');
 
 button.addEventListener('click', function(){
   if (item.classList.contains('active')) {
