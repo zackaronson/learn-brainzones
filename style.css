@@ -128,12 +128,12 @@ body {
 
 
 
-.teach-brainzones {
+.h-teach-brainzones {
  	cursor: pointer;
 }
 
 
-.teach-brainzones.button {
+.h-teach-brainzones.button {
 	background-color: #0AC156;
     border-radius: 5px;
     width: 255px;
@@ -477,6 +477,11 @@ p strong {
 }
 
 
+.button.teach-brainzones {
+	align-self: center;
+    margin: 40px 0px 40px 0px;
+}
+
 .row-6 .col-12 {
 		margin-top: 50px;
 		display: flex;
@@ -723,6 +728,20 @@ p strong {
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
+.col-6.quote {
+	 margin-left: 40px;
+    margin-top: 100px;
+    flex-basis: 61%;
+    font-family: OpenSans;
+    font-size: 2em;
+    color: #fff;
+    /* letter-spacing: 0.87px; */
+    line-height: 58px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+
+
 
 
 }
