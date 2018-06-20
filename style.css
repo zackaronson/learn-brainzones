@@ -591,6 +591,87 @@ p strong {
 
 */
 
+/*Form Begins*/
+
+.col.col-12 {
+	display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+}
+
+.form h2 {
+	margin-top: 50px;
+	font-family: Lato-Bold;
+	font-size: 36px;
+	color: #0DA6D7;
+	letter-spacing: 0.76px;
+	text-align: center;
+	width: 100%;
+}
+
+.form p {
+	font-family: Lato-MediumItalic;
+	font-size: 16px;
+	color: #232B35;
+	letter-spacing: 0.51px;
+	text-align: center;
+	margin-top: 5px;
+    margin-bottom: 30px;
+}
+}
+
+
+#myForm {
+	font-family: Lato-MediumItalic;
+	font-size: 12px;
+	color: #232B35;
+	letter-spacing: 0.51px;
+	width: 100%;
+}
+
+
+input#nameID {
+	border: 2px solid #0AC157;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 35px;
+}
+
+
+input#email {
+	border: 2px solid #0AC157;
+    border-radius: 4px;
+     width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 35px;
+}
+
+
+textArea#message {
+	border: 2px solid #0AC157;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+
+#submit {
+	margin-right: 0px;
+	 align-self: center;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+
+
+/*Form Ends*/
+
+
+/*Footer*/
 
 .icon-footer {
 	display: flex;
