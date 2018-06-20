@@ -35,6 +35,14 @@ body {
 	background-size:  cover;
 }
 
+.container-1-about {
+	background: url(images/baby.jpg);
+	background-position: center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
 
 .row {
 	display: flex;
@@ -121,7 +129,7 @@ body {
 }
 
 
-.nav-items ul li last-child:hover {
+.nav-items ul last-child:hover {
   text-decoration: none;
   cursor: pointer;
 }
@@ -147,6 +155,10 @@ body {
     cursor: pointer;
 }
 
+
+.h-teach-brainzones.button:hover {
+	text-decoration: none;
+}
 
 
 
@@ -324,6 +336,36 @@ body {
 .kendrick::first-letter {
 	color: #00D1FF;
 }
+
+
+
+.col.col-6.meet {
+    margin-top: 250px;
+    margin-bottom: 250px;
+ }
+
+.meet p {
+	font-family: Lato-Regular;
+	font-size: 36px;
+	color: #FFFFFF;
+	letter-spacing: 1.31px;
+	line-height: 40px;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+	text-transform: uppercase;
+}
+
+.sub-name {
+	font-family: Lato-Regular;
+	font-size: 20px;
+	color: #FFFFFF;
+	letter-spacing: 0.73px;
+	text-align: center;
+	line-height: 40px;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+
+
+
 
 
 /*Container 2 Begins*/
