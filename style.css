@@ -637,6 +637,7 @@ input#nameID {
     margin-top: 5px;
     margin-bottom: 20px;
     height: 35px;
+    text-indent: 10px;
 }
 
 
@@ -647,6 +648,7 @@ input#email {
     margin-top: 5px;
     margin-bottom: 20px;
     height: 35px;
+    text-indent: 10px;
 }
 
 
@@ -657,6 +659,7 @@ textArea#message {
     margin-top: 5px;
     margin-bottom: 20px;
     height: 100px;
+    text-indent: 10px;
 }
 
 
@@ -665,6 +668,7 @@ textArea#message {
 	 align-self: center;
     margin-bottom: 60px;
     margin-top: 10px;
+    text-indent: 10px;
 }
 
 
