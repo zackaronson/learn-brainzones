@@ -85,8 +85,13 @@ body {
     margin-top: 20px;
     margin-left: 20px;
     cursor: pointer;
+    transition: .5s all ease-in-out;
+    transform: rotate(0deg);
 }
 
+.logo:hover {
+	transform: rotate(10deg);
+}
 
 .nav-main {
 	margin-top: 20px;
