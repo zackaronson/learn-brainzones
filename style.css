@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
 html, 
 body {
   margin: 0px;
@@ -462,11 +465,11 @@ background-image: linear-gradient(-135deg, #0EC6E4 100%, #0DA2D6 0%);
 
 .about-us {
 	font-family: OpenSans-Semibold;
-	font-size: 150%;
+	font-size: 235%;
 	color: #232B35;
-	letter-spacing: 0.27px;
+	letter-spacing: 0.41px;
 	text-align: center;
-	line-height: 44px;
+	line-height: 55px;
 	margin: auto;
     margin-top: 50px;
     flex-basis: 86%;
@@ -504,9 +507,18 @@ p strong {
 
 .about img {
 	flex: 2;
-	width: 25%;
+	width: 50%;
 	-ms-grid-row-align: center;
 	    align-self: center;
+	     border-radius: 300px;
+    border: 5px solid #00D1FF;
+    transition: 0.5s ease-in-out all;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+
+.about img:hover {
+	transform: scale(.9);
 }
 
 .selfie-p {
