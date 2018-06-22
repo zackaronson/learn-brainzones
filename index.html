@@ -26,7 +26,7 @@
 
 			<div class="nav_wrapper">
 				
-				<div class="nav-mobile active">
+				<div class="nav-mobile">
 						
 					<ul>
 				        <li><a href="#about-button">About</a></li>
@@ -205,7 +205,7 @@
 
 				<p>Marcey & Debbie want to hear from you!</p>
 					
-				<form id="myForm" action="" method="GET">
+				<!-- <form id="myForm" action="" method="GET">
 					
 					<label for="nameID">Full Name:</label>
 					<input id="nameID" type="text" name="fullName" placeholder="Full Name">
@@ -221,7 +221,20 @@
 
 				</form>
 
-				<div id="submit" type="submit" value="subscribe" class="button">Submit Form</div>
+				<div id="submit" type="submit" value="subscribe" class="button">Submit Form</div> -->
+
+				<form id="myForm" method="POST" action="https://formspree.io/YOUREMAILHERE">
+						
+					<input type="text" name="fullName" id="nameID" placeholder="Full Name Please">
+
+
+	  				<input type="email" name="email" id="email" placeholder="Your email">
+
+	 				 <textarea name="message" id="message" placeholder="My students are great but..."></textarea>
+
+	 				 <button type="submit" id="submit-button">Submit Form</button>
+
+				</form>
 
 
 			</div>
@@ -245,7 +258,8 @@
 					<img src="images/pinterest.svg" alt="Pinterest Logo" class="pinterest">
 				</div> -->
 
-					<p class="follow-us">Follow Brainzones on social media</p>
+					<h2 id="follow-us">Follow Brainzones on social media</h2>
+					<p id="social">Stay up to date with all things Brainzones</p>
 
 					<div class="icon-footer">
 		<!-- Twitter Icon -->
@@ -260,7 +274,7 @@
 		<!-- Twitter Icon -->
 		<!-- Facebook Icon -->
 
-						<svg class="icon icon-facebook-square"><use xlink:href="#icon-facebook-square"></use>
+						<a href="https://www.facebook.com/brainzones/"><svg class="icon icon-facebook-square"><use xlink:href="#icon-facebook-square"></use>
 
 
 											<symbol id="icon-facebook-square" viewBox="0 0 24 28">
@@ -269,7 +283,7 @@
 							</symbol>
 
 
-						</svg>
+						</svg></a>
 
 		<!-- Facebook Icon -->
 
@@ -297,20 +311,9 @@
 				</div>
 
 
-				<div class="footer-links">
-					
-					<ul>
-						<li><a href="">About</a></li>
-					<!-- 	<li><a href="">Blog</a></li> -->
-						<li><a href="">Contact</a></li>
-					</ul>
-
-				</div>
-
-
 				<div class="copyright">
 					
-					<p>Brainzones, LLC 2018</p>
+					<p>&copy;Brainzones, LLC 2018</p>
 				</div>
 
 			
@@ -338,7 +341,7 @@
 <!-- Wrapper Ends -->
 
 </div>
-
+	<script src="parsley.min.js"></script>
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="app.js"></script>
 </body>
