@@ -251,8 +251,8 @@ body {
 }
 
 .nav-mobile.active {
-  -webkit-transform: translate(0%, calc(0% + 150px) );
-          transform: translate(0%, calc(0% + 150px) );
+  -webkit-transform: translate(0%, calc(0% + 140px) );
+          transform: translate(0%, calc(0% + 140px) );
 }
 
 .nav-mobile ul {
@@ -546,6 +546,11 @@ p strong {
 	margin-top: 100px;
 }
 
+
+.button-bg {
+	display: flex;
+	align-self: center;
+}
 
 .button.teach-brainzones {
 	align-self: center;
