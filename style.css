@@ -732,6 +732,11 @@ textArea#message {
     background-color: #0DA2D6;
 }
 
+textarea {
+	resize: none;
+}
+
+
 /*Form Ends*/
 
 
