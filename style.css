@@ -749,8 +749,7 @@ textarea {
 	align-self: center;
 	margin-bottom: 0px;
 /*	height: 5em;*/
-/*    margin-top: 30px;*/
-	margin: -30px;
+    margin-top: 30px;
 }
 
 
@@ -775,40 +774,53 @@ textarea {
     margin-top: 5px;
 }
 
-.icon-twitter {
-/*  display: inline-block;*/
-  width: 2em;
-/*  height: 2em;*/
-  stroke-width: 0;
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 2.2em;
+  height: 2.2em;
+  margin:30px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #27303B;
+}
+
+.svg-icon circle {
   stroke: #27303B;
-  fill: #27303B;
-  cursor: pointer;
-  margin: 10px;
-}
-
-.icon:hover {
-	fill: #fff;
+  stroke-width: 1;
 }
 
 
-.icon-facebook-square {
-  width: 2em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: #27303B;
-  cursor: pointer;
-  margin: 10px;
+.icon-hover-border {
+	background-color: transparent;
+	border-radius: 10px;
+	transition: .5s ease-in-out all;
+	cursor: pointer;
 }
 
 
-.icon-pinterest-square {
- width: 2em;
-  stroke-width: 0;
-  stroke: #27303B;
-  fill: #27303B;
+.icon-hover-border:hover {
+	background-color: #2e87f2;
+	border-radius: 10px;
+	transition: .5s ease-in-out all;
+	cursor: pointer;
+	transform: scale(1.2);
+	
+}
+
+
+.facebook {
   cursor: pointer;
-  margin: 10px;
-  align-self: center;
+}
+
+
+.pinterest {
+  cursor: pointer;
 }
 
 
