@@ -145,13 +145,6 @@ body {
 }
 
 
-/*.nav-items ul li a:last-child:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
-*/
-
-
 .h-teach-brainzones {
  	cursor: pointer;
 }
@@ -392,8 +385,6 @@ body {
 
 
 .container-2 {
-
-/*background-image: linear-gradient(-135deg, #0EC6E4 100%, #0DA2D6 0%);*/
 background-color: #4599FD;
 
 }
@@ -605,26 +596,6 @@ p strong {
 	flex-direction: column;
 }
 
-/*
-.icons {
-/*	flex: 1;
-	margin-top: 50px;
-	text-align: center;
-}
-
-
-
-.twitter, .facebook, .pinterest {
-	margin-right: 20px;
-	cursor: pointer;
-}
-
-
-.pinterest {
-	margin-right: 0px;
-}
-
-*/
 
 /*Form Begins*/
 
