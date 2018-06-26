@@ -801,13 +801,14 @@ textarea {
 }
 
 
-.icon-instagram {
+.icon-pinterest-square {
  width: 2em;
   stroke-width: 0;
   stroke: #27303B;
   fill: #27303B;
   cursor: pointer;
   margin: 10px;
+  align-self: center;
 }
 
 
