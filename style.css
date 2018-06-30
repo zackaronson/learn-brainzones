@@ -14,13 +14,15 @@ html body * {
 
 
 body, html {
+	font-family: 'Open Sans', san-serif !important;
+	font-size: 12px;
 	width: 100%;
 	height: 100%;
 }
 
 
 body {
-	font-family: 'Open Sans', 'san-serif';
+	font-family: 'Open Sans', san-serif !important;
 	font-size: 12px;
 }
 
