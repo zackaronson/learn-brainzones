@@ -105,7 +105,7 @@ body {
 /*	flex: 1;*/
 	display: inline-block;
 	text-align: right;
-	font-family: OpenSans-Semibold;
+	font-weight: 600;
 	font-size: 1em;
 	color: #FFFFFF;
 	letter-spacing: 0.2px;
@@ -157,7 +157,7 @@ body {
     border-radius: 5px;
     width: 270px;
     text-transform: uppercase;
-    font-family: OpenSans-Bold;
+    font-weight: 600;
     color: #FFFFFF;
     padding: 10px;
     cursor: pointer;
@@ -174,7 +174,7 @@ body {
 
 
 .button {
-	font-family: OpenSans-SemiBold;
+	font-weight: 600;
 	font-size: 1.1em;
 	color: #FFFFFF;
 	/*background-image: linear-gradient(-135deg, #0FCD6B, #0AC156);*/
@@ -316,7 +316,7 @@ body {
 	margin-top: 100px;
 	margin-left: 20px;
     flex-basis: 46%;
-    font-family: OpenSans;
+    font-weight: 400;
     font-size: 200%;
     color: #fff;
     letter-spacing: 0.87px;
@@ -338,7 +338,6 @@ body {
 }
 
 .kendrick {
-	font-family: OpenSans;
 	font-size: 14px;
 	color: #fff;
 	letter-spacing: 0.51px;
@@ -408,7 +407,7 @@ background-color: #4599FD;
 
 .featured-in {
 	color: #fff;
-	font-family: OpenSans-semibold;
+	font-weight: 600;
 	font-size: 16px;
 	text-transform: uppercase;
 	-ms-grid-row-align: center;
@@ -458,7 +457,7 @@ background-color: #4599FD;
 
 
 .about-us {
-	font-family: OpenSans-Semibold;
+	font-weight: 600;
 	font-size: 2.6em;
 	color: #232B35;
 	letter-spacing: 0.41px;
@@ -481,7 +480,6 @@ background-color: #4599FD;
 
 .about-p {
 /*	flex:1;*/
-	font-family: OpenSans;
 	font-size: 125%;
 	color: #232B35;
 	line-height: 37px;
@@ -492,7 +490,6 @@ background-color: #4599FD;
 
 p strong {
 	font-weight: 700;
-	font-family: OpenSans;
 	font-size: 100%;
 	color: #232B35;
 }
@@ -517,7 +514,7 @@ p strong {
 
 .selfie-p {
 	margin-top: 10px;
-    font-family: OpenSans-Semibold;
+	font-weight: 600;
     font-size: 86%;
     color: #232B35;
     text-align: center;
@@ -560,7 +557,7 @@ p strong {
 .row-6 .col-12 h4 {
 	flex: 1;
 	margin: auto;
-	font-family: OpenSans-Bold;
+	font-weight: 700;
 	font-size: 235%;
 	color: #FFFFFF;
 	text-align: center;
@@ -571,7 +568,7 @@ p strong {
 
 .row-6 .col-12 p {
 	flex: 1;
-	font-family: OpenSans-SemiboldItalic;
+	font-weight: 600;
 	font-size: 18px;
 	color: #FFFFFF;
 	text-align: center;
@@ -609,7 +606,7 @@ p strong {
 
 .form h2 {
 	margin-top: 50px;
-	font-family: OpenSans-Bold;
+	font-weight: 700;
 	font-size: 36px;
 	color: #4599FD;
 	letter-spacing: 0.76px;
@@ -618,7 +615,8 @@ p strong {
 }
 
 .form p {
-	font-family: OpenSans-Italic;
+	font-weight: 400;
+	font-style: italic;
     font-size: 1em;
     color: #232B35;
     letter-spacing: 0;
@@ -630,7 +628,8 @@ p strong {
 
 
 #myForm {
-	font-family: OpenSans-Italic;
+	font-weight: 400;
+	font-style: italic;
 	font-size: 12px;
 	color: #232B35;
 	letter-spacing: 0.51px;
@@ -684,7 +683,7 @@ textArea#message {
 
 
 #submit-button {
-	font-family: OpenSans-SemiBold;
+	font-weight: 600;
 	font-size: 1.5em;
 	color: #FFFFFF;
 	/*background-image: linear-gradient(-135deg, #0FCD6B, #0AC156);*/
@@ -732,14 +731,15 @@ textarea {
 	text-align: center;
 	margin-top: 50px;
 	font-size: 2em;
-	font-family: 'OpenSans-Bold';
+	font-weight: 700;
 	text-transform: uppercase;
 	color: #232B35;
 	width: 90%;
 }
 
 #social {
-    font-family: OpenSans-Italic;
+   	font-weight: 400;
+	font-style: italic;
     font-size: 1em;
     color: #232B35;
     letter-spacing: 0;
@@ -800,7 +800,7 @@ SVG Icons - svgicons.sparkk.fr
 
 .footer-links {
 	flex: 1;
-	font-family: OpenSans-Semibold;
+	font-weight: 600;
 	font-size: 100%;
 	color: #232B35;
 	text-align: center;
@@ -823,7 +823,6 @@ SVG Icons - svgicons.sparkk.fr
 
 .copyright {
 	flex: 1;
-	font-family: OpenSans;
 	font-size: 80%;
 	color: #232B35;
 	text-align: center;
@@ -949,7 +948,6 @@ textarea.parsley-error {
 	 margin-left: 40px;
     margin-top: 100px;
     flex-basis: 61%;
-    font-family: OpenSans;
     font-size: 2em;
     color: #fff;
     /* letter-spacing: 0.87px; */
@@ -974,7 +972,6 @@ textarea.parsley-error {
 	margin-left: 40px;
     margin-top: 100px;
     flex-basis: 61%;
-    font-family: OpenSans;
     font-size: 24px;
     color: #fff;
     letter-spacing: 0.87px;
