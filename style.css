@@ -94,7 +94,8 @@ body {
 }
 
 .logo:hover {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
 }
 
 .nav-main {
@@ -121,7 +122,8 @@ body {
 .nav-items ul li {
   margin-left: 20px;
   font-size: 1.2em;
-  align-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .nav-items ul li a {
@@ -241,7 +243,9 @@ body {
   -webkit-transform: translate(0%, -100%);
           transform: translate(0%, -100%);
   transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
   transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
   transition: transform 1s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
@@ -273,7 +277,8 @@ body {
 
 .mobile-button {
 	text-align: right;
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
     margin-top: 46px;
 }
 
@@ -509,7 +514,8 @@ p strong {
 
 
 .about img:hover {
-	transform: scale(.9);
+	-webkit-transform: scale(.9);
+	        transform: scale(.9);
 }
 
 .selfie-p {
@@ -544,7 +550,8 @@ p strong {
 }
 
 .button.teach-brainzones {
-	align-self: center;
+	-ms-grid-row-align: center;
+	    align-self: center;
     margin: 40px 0px 40px 0px;
 }
 
@@ -675,7 +682,8 @@ textArea#message {
 
 #submit {
 	margin-right: 0px;
-	 align-self: center;
+	 -ms-grid-row-align: center;
+	     align-self: center;
     margin-bottom: 60px;
     margin-top: 10px;
     text-indent: 10px;
@@ -697,7 +705,8 @@ textArea#message {
     border: none;
     cursor: pointer;
     text-decoration: none;
-     align-self: center;
+     -ms-grid-row-align: center;
+         align-self: center;
     margin-bottom: 50px;
 }
 
@@ -782,7 +791,8 @@ SVG Icons - svgicons.sparkk.fr
 	border-radius: 10px;
 	transition: .5s ease-in-out all;
 	cursor: pointer;
-	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
 	
 }
 
