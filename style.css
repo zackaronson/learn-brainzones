@@ -496,11 +496,12 @@ background-color: #4599FD;
 }
 
 .names {
-	font-size: 22px;
+	font-size: 14px;
 	color: #232B35;
-	font-weight: 700;
+	font-weight: 400;
 	margin-top: 10px;
 	align-self: center;
+	font-style: italic;
 }
 
 .about {
@@ -514,7 +515,7 @@ background-color: #4599FD;
 
 
 .about-p {
-	margin-top: 25px;
+	margin-top: 40px;
 	font-size: 18px;
 	color: #232B35;
 	line-height: 31px;
@@ -613,6 +614,92 @@ p strong {
 	display: flex;
 	flex-direction: column;
 }
+
+
+/*Packages Begins*/
+
+.row-9 {
+	max-width: 960px;
+	margin: auto;
+	display: block;
+}
+
+
+.container-7 {
+	background-color: #FAFAFA;
+}
+
+
+.header-packages {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+.packages {
+	display: flex;
+	margin-top: 40px;
+}
+
+
+.package {
+	flex:1;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.26);
+	border-radius: 10px;
+	background-color: #fff;
+	margin-bottom: 80px;
+	transition: .5s all ease-in-out;
+}
+
+
+.package:hover {
+	transform: scale(1.1);
+	transition: .5s all ease-in-out;
+}
+
+
+.package.package-2 {
+	margin-right: 40px;
+    margin-left: 40px;
+}
+
+.package h2 {
+	font-size: 24px;
+	color: #232B35;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.package p {
+/*font-family: OpenSans-SemiboldItalic;*/
+	font-size: 12px;
+	color: #4599FD;
+	font-weight: 600;
+	font-style: italic;
+	text-align: center;
+	margin-top: 4px;
+}
+
+
+.package ul li {
+	/*font-family: OpenSans-Semibold;*/
+	font-weight: 600;
+	font-size: 14px;
+	color: #232B35;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	line-height: 20px;
+	list-style: circle;
+}
+
+
+
+
+/*Packages Ends*/
 
 
 /*Form Begins*/
@@ -966,6 +1053,24 @@ textarea.parsley-error {
     line-height: 58px;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
 }
+
+
+.packages {
+	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.package {
+	margin-bottom: 50px;
+}
+
+
+.package.package-2 {
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
 
 
 .marcey-debbie {
