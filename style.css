@@ -448,10 +448,11 @@ background-color: #4599FD;
 
 /*Container 2 Ends*/
 
+/*Container 3 Begins*/
+
 .container-3 {
 	background-color: #fff;
 }
-
 
 
 
@@ -460,18 +461,46 @@ background-color: #4599FD;
 
 }
 
+.left-column {
+	display: flex;
+    flex-direction: column;
+}
+
+
+.left-column ul li {
+	margin-top: 20px;
+	margin-left: 5px;
+	list-style: square;
+	font-size: 18px;
+	color: #232B35;
+	line-height: 31px;
+	margin-right: 20px;
+}
+
 
 .about-us {
-	font-weight: 600;
-	font-size: 2.6em;
+	font-size: 18px;
+	color: #4599FD;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 80px;
+}
+
+
+#block {
+	height: 10px;
+    width: 146px;
+    background-color: #4599fd;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+
+.names {
+	font-size: 22px;
 	color: #232B35;
-	letter-spacing: 0.41px;
-	text-align: center;
-	line-height: 55px;
-	margin: auto;
-    margin-top: 50px;
-    flex-basis: 86%;
-    text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 10px;
+	align-self: center;
 }
 
 .about {
@@ -483,12 +512,12 @@ background-color: #4599FD;
 
 
 
+
 .about-p {
-/*	flex:1;*/
-	font-size: 125%;
+	margin-top: 25px;
+	font-size: 18px;
 	color: #232B35;
-	line-height: 37px;
-	margin-left: 20px;
+	line-height: 31px;
     margin-right: 20px;
 }
 
@@ -501,34 +530,17 @@ p strong {
 
 
 
-.about img {
-	flex: 2;
-	width: 50%;
-	-ms-grid-row-align: center;
-	    align-self: center;
-	     border-radius: 300px;
-    border: 5px solid #4599FD;
+.marcey-debbie {
+	border-radius: 10px;
     transition: 0.5s ease-in-out all;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    margin-top: 40px;
+    align-self: center;
 }
 
 
-.about img:hover {
-	-webkit-transform: scale(.9);
-	        transform: scale(.9);
-}
-
-.selfie-p {
-	margin-top: 10px;
-	font-weight: 600;
-    font-size: 86%;
-    color: #232B35;
-    text-align: center;
-    line-height: 20px;
-    width: 44%;
-    -ms-grid-row-align: center;
-        align-self: center;
-    margin-bottom: 25px;
+.marcey-debbie:hover {
+	-webkit-transform: scale(1.01);
+	        transform: scale(1.01);
 }
 
 
@@ -929,16 +941,6 @@ textarea.parsley-error {
 }
 
 
-
-.about-p {
-	flex-direction: column;
-}
-
-.selfie {
-	flex-direction: column;
-}
-
-
 .row-1 .col-5 {
  	display: none;
  }
@@ -966,7 +968,19 @@ textarea.parsley-error {
 }
 
 
+.marcey-debbie {
+    width: 95%;
+}
 
+
+#block {
+	margin-left: 20px;
+}
+
+
+.about-us {
+	margin-left: 20px;
+}
 
 }
 
