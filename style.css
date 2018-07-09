@@ -500,7 +500,8 @@ background-color: #4599FD;
 	color: #232B35;
 	font-weight: 400;
 	margin-top: 10px;
-	align-self: center;
+	-ms-grid-row-align: center;
+	    align-self: center;
 	font-style: italic;
 }
 
@@ -535,7 +536,8 @@ p strong {
 	border-radius: 10px;
     transition: 0.5s ease-in-out all;
     margin-top: 40px;
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
 }
 
 
@@ -655,7 +657,8 @@ p strong {
 
 
 .package:hover {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
 	transition: .5s all ease-in-out;
 }
 
