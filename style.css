@@ -500,8 +500,7 @@ background-color: #4599FD;
 	color: #232B35;
 	font-weight: 400;
 	margin-top: 10px;
-	-ms-grid-row-align: center;
-	    align-self: center;
+	text-align: center;
 	font-style: italic;
 }
 
@@ -1089,6 +1088,12 @@ textarea.parsley-error {
 .about-us {
 	margin-left: 20px;
 }
+
+.featured-in {
+
+	margin-left: 20px;
+
+	}
 
 }
 
