@@ -33,20 +33,13 @@ body {
 
 
 .container-1 {
-	background: url(images/head-bg.png);
+	background-image: url(images/head-bg.png);
 	background-position: center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
 	background-size:  cover;
 }
 
-.container-1-about {
-	background: url(images/baby.jpg);
-	background-position: center;
-	background-repeat:  no-repeat;
-	background-attachment: fixed;
-	background-size:  cover;
-}
 
 
 .row {
