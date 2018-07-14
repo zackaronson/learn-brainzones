@@ -1097,6 +1097,15 @@ textarea.parsley-error {
 @media screen and (max-width: 420px){
 
 
+.container-1 {
+	background-image: url(images/head-bg-small.png);
+	background-position: center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+
 
 .col-6.quote {
 	margin-left: 40px;
